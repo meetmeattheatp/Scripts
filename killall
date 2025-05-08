@@ -1,0 +1,124 @@
+            local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+            local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
+
+local args = {
+    [1] = "shotshell",
+    [2] = {
+        [1] = humanoidRootPart.Position
+    }
+}
+
+workspace:WaitForChild("ServerStuff"):WaitForChild("dealDamage"):FireServer(unpack(args))
