@@ -133,7 +133,7 @@ end
 
         -- CSongs --
 
-local CSongs = Songs:NewSection("Well-known songs")
+local CSongs = CSongs:NewSection("Well-known songs")
 CSongs:NewButton("IN THE DARK", "idk", function()
         local sound = Instance.new("Sound")
 sound.Parent = game.Players.LocalPlayer.Character.Head
