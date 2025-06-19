@@ -1,11 +1,52 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
         
         local Window = Library.CreateLib("Sounds", "Serpent")
-        
+
+local INTFile = "In The Dark"..".mp3"
+
+if not isfile(INTFile) then
+    print("Downloading INTFILE")
+writefile(INTFile,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260409388531772/Battlejuice_LeBrock_-_In_The_Dark.mp3?ex=68556bca&is=68541a4a&hm=b2615d8be1bb31a14e44cec242782ae7c6c1da44ecb292f905c89d1568ceec97&"))
+print("Downloaded!")
+else
+print("Already Downloaded!")
+end
+
+local INTFile2 = "Ascenscion"..".mp3"
+
+if not isfile(INTFile2) then
+    print("Downloading INTFile2")
+writefile(INTFile2,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260409757503550/Battlejuice_-_The_Ascension.mp3?ex=68556bca&is=68541a4a&hm=071d64fded5b9d11315b684a50e4be2bccfb4686eab226d9a9220772252702c3&"))
+print("Downloaded!")
+else
+print("Already Downloaded!")
+end
+
+local INTFile3 = "Made Of Steel"..".mp3"
+
+if not isfile(INTFile3) then
+    print("Downloading INTFile3")
+writefile(INTFile3,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260410109694003/Battlejuice_x_Lebrock_-_Made_Of_Steel.mp3?ex=68556bca&is=68541a4a&hm=a8238a75eb4dd733b92b15aa941545187f08d44b446ae2ef42b3beb0e079c70c&"))
+print("Downloaded!")
+else
+print("Already Downloaded!")
+end
+
+local INTFile4 = "Tame The Beast"..".mp3"
+
+if not isfile(INTFile4) then
+    print("Downloading INTFile4")
+writefile(INTFile4,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260410579583056/Battlejuice_x_Lebrock_-_Tame_the_Beast.mp3?ex=68556bca&is=68541a4a&hm=a9bf552f69367484a81db512f50848fee4d7ce9dfd1cb9978f6f357f39040da4&"))
+print("Downloaded!")
+else
+print("Already Downloaded!")
+end
+
         
         -- Tabs --
         
         local Songs = Window:NewTab("Holdout")
+        local CSongs = Window:NewTab("Client-Sided Songs")
         local Gamemode = Window:NewTab("Gamemode")
         local Theme = Window:NewTab("Theme")
         local Events = Window:NewTab("Events")
@@ -85,6 +126,58 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
         game.StarterGui:SetCore("SendNotification", {
         Title = "Boss Themes";
         Text = "Playing - Bad Theme";
+        Icon = "rbxassetid://6833114846";
+        Duration = 4;
+        })
+        end)
+
+        -- CSongs --
+
+local CSongs = Songs:NewSection("Well-known songs")
+CSongs:NewButton("IN THE DARK", "idk", function()
+        local sound = Instance.new("Sound")
+sound.Parent = game.Players.LocalPlayer.Character.Head
+sound.SoundId = getcustomasset(INTFile)
+sound:Play()
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "Theme";
+        Text = "Playing - In The Dark";
+        Icon = "rbxassetid://6833114846";
+        Duration = 4;
+        })
+        end)
+CSongs:NewButton("THE ASCENSION", "idk", function()
+        local sound = Instance.new("Sound")
+sound.Parent = game.Players.LocalPlayer.Character.Head
+sound.SoundId = getcustomasset(INTFile2)
+sound:Play()
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "Theme";
+        Text = "Playing - The Ascensions";
+        Icon = "rbxassetid://6833114846";
+        Duration = 4;
+        })
+        end)
+CSongs:NewButton("MADE OF STEEL", "idk", function()
+        local sound = Instance.new("Sound")
+sound.Parent = game.Players.LocalPlayer.Character.Head
+sound.SoundId = getcustomasset(INTFile3)
+sound:Play()
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "Theme";
+        Text = "Playing - Made of Steel";
+        Icon = "rbxassetid://6833114846";
+        Duration = 4;
+        })
+        end)
+CSongs:NewButton("TAME THE BEAST", "idk", function()
+        local sound = Instance.new("Sound")
+sound.Parent = game.Players.LocalPlayer.Character.Head
+sound.SoundId = getcustomasset(INTFile4)
+sound:Play()
+        game.StarterGui:SetCore("SendNotification", {
+        Title = "Theme";
+        Text = "Playing - Tame The Beast";
         Icon = "rbxassetid://6833114846";
         Duration = 4;
         })
