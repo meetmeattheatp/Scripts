@@ -6,7 +6,7 @@ local INTFile = "In The Dark"..".mp3"
 
 if not isfile(INTFile) then
     print("Downloading INTFILE")
-writefile(INTFile,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260409388531772/Battlejuice_LeBrock_-_In_The_Dark.mp3?ex=68556bca&is=68541a4a&hm=b2615d8be1bb31a14e44cec242782ae7c6c1da44ecb292f905c89d1568ceec97&"))
+writefile(INTFile,game:HttpGet("https://github.com/meetmeattheatp/i-dont-know/raw/refs/heads/main/Battlejuice%20%20LeBrock%20-%20In%20The%20Dark.mp3"))
 print("Downloaded!")
 else
 print("Already Downloaded!")
@@ -16,7 +16,7 @@ local INTFile2 = "Ascenscion"..".mp3"
 
 if not isfile(INTFile2) then
     print("Downloading INTFile2")
-writefile(INTFile2,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260409757503550/Battlejuice_-_The_Ascension.mp3?ex=68556bca&is=68541a4a&hm=071d64fded5b9d11315b684a50e4be2bccfb4686eab226d9a9220772252702c3&"))
+writefile(INTFile2,game:HttpGet("https://github.com/meetmeattheatp/i-dont-know/raw/refs/heads/main/Battlejuice%20-%20The%20Ascension.mp3"))
 print("Downloaded!")
 else
 print("Already Downloaded!")
@@ -26,7 +26,7 @@ local INTFile3 = "Made Of Steel"..".mp3"
 
 if not isfile(INTFile3) then
     print("Downloading INTFile3")
-writefile(INTFile3,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260410109694003/Battlejuice_x_Lebrock_-_Made_Of_Steel.mp3?ex=68556bca&is=68541a4a&hm=a8238a75eb4dd733b92b15aa941545187f08d44b446ae2ef42b3beb0e079c70c&"))
+writefile(INTFile3,game:HttpGet("https://github.com/meetmeattheatp/i-dont-know/raw/refs/heads/main/Battlejuice%20x%20Lebrock%20-%20Made%20Of%20Steel.mp3"))
 print("Downloaded!")
 else
 print("Already Downloaded!")
@@ -36,7 +36,7 @@ local INTFile4 = "Tame The Beast"..".mp3"
 
 if not isfile(INTFile4) then
     print("Downloading INTFile4")
-writefile(INTFile4,game:HttpGet("https://cdn.discordapp.com/attachments/1271647905475723347/1385260410579583056/Battlejuice_x_Lebrock_-_Tame_the_Beast.mp3?ex=68556bca&is=68541a4a&hm=a9bf552f69367484a81db512f50848fee4d7ce9dfd1cb9978f6f357f39040da4&"))
+writefile(INTFile4,game:HttpGet("https://github.com/meetmeattheatp/i-dont-know/raw/refs/heads/main/Battlejuice%20x%20Lebrock%20-%20Tame%20the%20Beast.mp3"))
 print("Downloaded!")
 else
 print("Already Downloaded!")
